@@ -1,8 +1,36 @@
 {
  "geoms": {
- "geom1_path_viz": {
+ "geom1_text_viz": {
+ "geom": "text",
+"classed": "geom1_text_viz",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"parse": true,
+"na.rm": false,
+"label": "f(x) == x^3 + x^2 - 2*x + 2",
+"size":        4,
+"colour": "#2E3440" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"PANEL": "integer",
+"group": "character",
+"label": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_path_viz": {
  "geom": "path",
-"classed": "geom1_path_viz",
+"classed": "geom2_path_viz",
 "aes": {
  "x": "x",
 "y": "y" 
@@ -27,9 +55,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom2_vline_viz": {
+"geom3_vline_viz": {
  "geom": "vline",
-"classed": "geom2_vline_viz",
+"classed": "geom3_vline_viz",
 "aes": {
  "xintercept": "c",
 "showSelected1": "itr" 
@@ -58,9 +86,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom3_text_viz": {
+"geom4_text_viz": {
  "geom": "text",
-"classed": "geom3_text_viz",
+"classed": "geom4_text_viz",
 "aes": {
  "x": "c",
 "y": "0",
@@ -96,9 +124,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom4_vline_viz": {
+"geom5_vline_viz": {
  "geom": "vline",
-"classed": "geom4_vline_viz",
+"classed": "geom5_vline_viz",
 "aes": {
  "xintercept": "a",
 "showSelected1": "itr" 
@@ -127,9 +155,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom5_vline_viz": {
+"geom6_vline_viz": {
  "geom": "vline",
-"classed": "geom5_vline_viz",
+"classed": "geom6_vline_viz",
 "aes": {
  "xintercept": "b",
 "showSelected1": "itr" 
@@ -158,9 +186,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom6_path_errorviz": {
+"geom7_path_errorviz": {
  "geom": "path",
-"classed": "geom6_path_errorviz",
+"classed": "geom7_path_errorviz",
 "aes": {
  "x": "itr",
 "y": "err" 
@@ -184,9 +212,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom7_point_errorviz": {
+"geom8_point_errorviz": {
  "geom": "point",
-"classed": "geom7_point_errorviz",
+"classed": "geom8_point_errorviz",
 "aes": {
  "x": "itr",
 "y": "err" 
@@ -207,9 +235,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom8_vline_errorviz": {
+"geom9_vline_errorviz": {
  "geom": "vline",
-"classed": "geom8_vline_errorviz",
+"classed": "geom9_vline_errorviz",
 "aes": {
  "xintercept": "itr",
 "showSelected1": "itr" 
@@ -251,11 +279,11 @@
 "selected": "1",
 "levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
 "update": [
- "geom2_vline_viz",
-"geom3_text_viz",
-"geom4_vline_viz",
+ "geom3_vline_viz",
+"geom4_text_viz",
 "geom5_vline_viz",
-"geom8_vline_errorviz" 
+"geom6_vline_viz",
+"geom9_vline_errorviz" 
 ] 
 } 
 },
@@ -432,11 +460,12 @@
 "last_in_row": null 
 },
 "geoms": [
- "geom1_path_viz",
-"geom2_vline_viz",
-"geom3_text_viz",
-"geom4_vline_viz",
-"geom5_vline_viz" 
+ "geom1_text_viz",
+"geom2_path_viz",
+"geom3_vline_viz",
+"geom4_text_viz",
+"geom5_vline_viz",
+"geom6_vline_viz" 
 ] 
 },
 "errorviz": {
@@ -601,9 +630,9 @@
 "last_in_row": null 
 },
 "geoms": [
- "geom6_path_errorviz",
-"geom7_point_errorviz",
-"geom8_vline_errorviz" 
+ "geom7_path_errorviz",
+"geom8_point_errorviz",
+"geom9_vline_errorviz" 
 ] 
 } 
 },
