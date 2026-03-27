@@ -1,0 +1,616 @@
+{
+ "geoms": {
+ "geom1_path_viz": {
+ "geom": "path",
+"classed": "geom1_path_viz",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "lineend": "butt",
+"linejoin": "round",
+"linemitre":        1,
+"na.rm": false,
+"na.rm": false,
+"colour": "#2E3440" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_vline_viz": {
+ "geom": "vline",
+"classed": "geom2_vline_viz",
+"aes": {
+ "xintercept": "c",
+"showSelected1": "itr" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#00FF00",
+"linewidth":      0.5,
+"showSelected": "itr",
+"help_showSelected": "itr" 
+},
+"types": {
+ "xintercept": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_text_viz": {
+ "geom": "text",
+"classed": "geom3_text_viz",
+"aes": {
+ "x": "c",
+"y": "0",
+"label": "sprintf(\"c = %.2f\", c)",
+"showSelected1": "itr" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"fontface": "bold",
+"size":       12,
+"colour": "#2D5A27",
+"showSelected": "itr",
+"help_showSelected": "itr" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"label": "character",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_vline_viz": {
+ "geom": "vline",
+"classed": "geom4_vline_viz",
+"aes": {
+ "xintercept": "a",
+"showSelected1": "itr" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"linetype": "dashed",
+"colour": "#BF616A",
+"showSelected": "itr",
+"help_showSelected": "itr" 
+},
+"types": {
+ "xintercept": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_vline_viz": {
+ "geom": "vline",
+"classed": "geom5_vline_viz",
+"aes": {
+ "xintercept": "b",
+"showSelected1": "itr" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"linetype": "dashed",
+"colour": "#BF616A",
+"showSelected": "itr",
+"help_showSelected": "itr" 
+},
+"types": {
+ "xintercept": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_path_errorviz": {
+ "geom": "path",
+"classed": "geom6_path_errorviz",
+"aes": {
+ "x": "itr",
+"y": "err" 
+},
+"params": {
+ "lineend": "butt",
+"linejoin": "round",
+"linemitre":        1,
+"na.rm": false,
+"na.rm": false 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom7_point_errorviz": {
+ "geom": "point",
+"classed": "geom7_point_errorviz",
+"aes": {
+ "x": "itr",
+"y": "err" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom8_vline_errorviz": {
+ "geom": "vline",
+"classed": "geom8_vline_errorviz",
+"aes": {
+ "xintercept": "itr",
+"showSelected1": "itr" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":     0.35,
+"showSelected": "itr",
+"help_showSelected": "itr" 
+},
+"types": {
+ "xintercept": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "itr",
+"ms":     1000,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ] 
+},
+"duration": {
+ "itr":      250 
+},
+"selectors": {
+ "itr": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
+"update": [
+ "geom2_vline_viz",
+"geom3_text_viz",
+"geom4_vline_viz",
+"geom5_vline_viz",
+"geom8_vline_errorviz" 
+],
+"duration":      250 
+} 
+},
+"plots": {
+ "viz": {
+ "panel_margin_lines":     0.32,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#000000",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#000000",
+"size":     0.05,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+] 
+],
+"y": [
+ [
+       -2,
+       0,
+       2,
+       4 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#000000",
+"size":     0.01,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2 
+] 
+],
+"y": [
+ [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"xlab": [
+ "-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"xrange": [    -3.25,     2.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+       -2,
+       0,
+       2,
+       4 
+],
+"ylab": [
+ "-2",
+"0",
+"2",
+"4" 
+],
+"yrange": [    -2.35,     5.35 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "x",
+"strip_text_xsize": "14pt",
+"xsize": "11.2pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "y",
+"strip_text_ysize": "14pt",
+"ysize": "11.2pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"ylabs": [
+ "-2",
+"0",
+"2",
+"4" 
+],
+"title": "Bisection Root Finding method",
+"title_size": "16.8pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_path_viz",
+"geom2_vline_viz",
+"geom3_text_viz",
+"geom4_vline_viz",
+"geom5_vline_viz" 
+] 
+},
+"errorviz": {
+ "panel_margin_lines":     0.32,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#000000",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#000000",
+"size":     0.05,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        4,
+       8,
+      12 
+] 
+],
+"y": [
+ [
+       12,
+      14,
+      16,
+      18,
+      20 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#000000",
+"size":     0.01,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        2,
+       4,
+       6,
+       8,
+      10,
+      12,
+      14 
+] 
+],
+"y": [
+ [
+       12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        4,
+       8,
+      12 
+],
+"xlab": [
+ "4",
+"8",
+"12" 
+],
+"xrange": [      0.3,     15.7 ],
+"xline": false,
+"xticks": true,
+"y": [
+       12,
+      14,
+      16,
+      18,
+      20 
+],
+"ylab": [
+ "12",
+"14",
+"16",
+"18",
+"20" 
+],
+"yrange": [ 11.79297, 21.84766 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Iteration",
+"strip_text_xsize": "14pt",
+"xsize": "11.2pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Error range",
+"strip_text_ysize": "14pt",
+"ysize": "11.2pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "4",
+"8",
+"12" 
+],
+"ylabs": [
+ "12",
+"14",
+"16",
+"18",
+"20" 
+],
+"title": "Error analysis",
+"title_size": "16.8pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom6_path_errorviz",
+"geom7_point_errorviz",
+"geom8_vline_errorviz" 
+] 
+} 
+},
+"source": "https://github.com/AZ9tumas/bisection-method-animation",
+"title": "Bisection Method Animation" 
+}
