@@ -12,7 +12,7 @@
 "parse": true,
 "na.rm": false,
 "label": "f(x) == x^3 + x^2 - 2*x + 2",
-"size":        4,
+"size":       14,
 "colour": "#2E3440" 
 },
 "types": {
