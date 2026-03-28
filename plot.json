@@ -272,25 +272,28 @@
 "classed": "geom10_vline_errorviz",
 "aes": {
  "xintercept": "itr",
-"clickSelects": "itr" 
+"showSelected1": "itr" 
 },
 "params": {
  "na.rm": false,
 "na.rm": false,
-"alpha":     0.35,
-"linetype": "dashed",
-"clickSelects": "itr",
-"help_clickSelects": "itr" 
+"alpha":     0.75,
+"showSelected": "itr",
+"help_showSelected": "itr" 
 },
 "types": {
  "xintercept": "numeric",
-"clickSelects": "integer",
+"showSelected1": "integer",
 "PANEL": "integer",
 "group": "character" 
 },
 "chunk_order": [],
-"nest_order": [],
-"subset_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
 "chunks": 1,
 "total": 1 
 },
@@ -304,7 +307,8 @@
 "params": {
  "na.rm": false,
 "na.rm": false,
-"alpha":     0.65,
+"alpha":     0.45,
+"colour": "#ADD8E6",
 "clickSelects": "itr",
 "help_clickSelects": "itr" 
 },
