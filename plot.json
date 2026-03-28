@@ -198,7 +198,7 @@
 "parse": true,
 "na.rm": false,
 "label": "err(x) = abs(f(c))",
-"size":       14,
+"size":     15.5,
 "colour": "#2E3440" 
 },
 "types": {
