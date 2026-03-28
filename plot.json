@@ -278,6 +278,7 @@
  "na.rm": false,
 "na.rm": false,
 "alpha":        1,
+"colour": "#ADD8E6",
 "showSelected": "itr",
 "help_showSelected": "itr" 
 },
@@ -308,7 +309,6 @@
  "na.rm": false,
 "na.rm": false,
 "alpha":     0.65,
-"linetype": "dashed",
 "clickSelects": "itr",
 "help_clickSelects": "itr" 
 },
