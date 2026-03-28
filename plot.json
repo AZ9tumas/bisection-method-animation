@@ -197,7 +197,7 @@
  "na.rm": false,
 "parse": true,
 "na.rm": false,
-"label": "err(x) == abs(f(c))",
+"label": "err(x) = abs(f(c))",
 "size":       14,
 "colour": "#2E3440" 
 },
@@ -299,7 +299,7 @@
  "geom": "vline",
 "classed": "geom11_vline_errorviz",
 "aes": {
- "xintercept": "seq(0, n_iterations - 1)",
+ "xintercept": "itr",
 "showSelected1": "itr" 
 },
 "params": {
@@ -329,7 +329,7 @@
 "time": {
  "variable": "itr",
 "ms":     1000,
-"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ] 
+"sequence": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ] 
 },
 "selectors": {
  "itr": {
@@ -337,8 +337,8 @@
 "type": "single",
 "showSelected": true,
 "clickSelects": true,
-"selected": "1",
-"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
+"selected": "0",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "0" ],
 "update": [
  "geom3_vline_viz",
 "geom4_text_viz",
