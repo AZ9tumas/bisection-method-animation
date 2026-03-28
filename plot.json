@@ -279,7 +279,6 @@
 "na.rm": false,
 "alpha":     0.35,
 "linetype": "dashed",
-"colour": "#ADD8E6",
 "clickSelects": "itr",
 "help_clickSelects": "itr" 
 },
