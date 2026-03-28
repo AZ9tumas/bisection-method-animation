@@ -299,28 +299,24 @@
 "classed": "geom11_vline_errorviz",
 "aes": {
  "xintercept": "itr",
-"showSelected1": "itr" 
+"clickSelects": "itr" 
 },
 "params": {
  "na.rm": false,
 "na.rm": false,
 "alpha":     0.65,
-"showSelected": "itr",
-"help_showSelected": "itr" 
+"clickSelects": "itr",
+"help_clickSelects": "itr" 
 },
 "types": {
  "xintercept": "numeric",
-"showSelected1": "integer",
+"clickSelects": "integer",
 "PANEL": "integer",
 "group": "character" 
 },
 "chunk_order": [],
-"nest_order": [
- "showSelected1" 
-],
-"subset_order": [
- "showSelected1" 
-],
+"nest_order": [],
+"subset_order": [],
 "chunks": 1,
 "total": 1 
 } 
