@@ -383,11 +383,21 @@
 "width_proportion": [        1 ],
 "height_proportion": [        1 ] 
 },
-"panel_background": [],
-"panel_border": [],
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#000000",
+"size":      0.5,
+"linetype":        1 
+},
 "grid_major": {
- "colour": "#e5e9f0",
-"size":      0.2,
+ "colour": "#000000",
+"size":     0.05,
 "linetype":        1,
 "lineend": "butt",
 "loc": {
@@ -412,7 +422,11 @@
 } 
 },
 "grid_minor": {
- "loc": {
+ "colour": "#000000",
+"size":     0.01,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
  "x": [
  [
        -3,
@@ -461,7 +475,7 @@
 ],
 "xrange": [    -3.25,     2.25 ],
 "xline": false,
-"xticks": false,
+"xticks": true,
 "y": [
        -2,
        0,
@@ -476,16 +490,16 @@
 ],
 "yrange": [    -2.35,     5.35 ],
 "yline": false,
-"yticks": false 
+"yticks": true 
 },
 "xtitle": "x",
 "strip_text_xsize": "14pt",
-"xsize": "14pt",
+"xsize": "11.2pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "f(x)",
 "strip_text_ysize": "14pt",
-"ysize": "14pt",
+"ysize": "11.2pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -503,7 +517,7 @@
 "4" 
 ],
 "title": "Bisection Root Finding Method",
-"title_size": "16pt",
+"title_size": "16.8pt",
 "options": {
  "width":      400,
 "height":      400 
@@ -549,11 +563,21 @@
 "width_proportion": [        1 ],
 "height_proportion": [        1 ] 
 },
-"panel_background": [],
-"panel_border": [],
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#000000",
+"size":      0.5,
+"linetype":        1 
+},
 "grid_major": {
- "colour": "#e5e9f0",
-"size":      0.2,
+ "colour": "#000000",
+"size":     0.05,
 "linetype":        1,
 "lineend": "butt",
 "loc": {
@@ -576,7 +600,11 @@
 } 
 },
 "grid_minor": {
- "loc": {
+ "colour": "#000000",
+"size":     0.01,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
  "x": [
  [
         2,
@@ -616,7 +644,7 @@
 ],
 "xrange": [      0.3,     15.7 ],
 "xline": false,
-"xticks": false,
+"xticks": true,
 "y": [
         0,
        1,
@@ -633,16 +661,16 @@
 ],
 "yrange": [ -0.1970815, 4.144615 ],
 "yline": false,
-"yticks": false 
+"yticks": true 
 },
 "xtitle": "Iteration",
 "strip_text_xsize": "14pt",
-"xsize": "14pt",
+"xsize": "11.2pt",
 "xangle":        0,
 "xanchor": "middle",
 "ytitle": "Error range",
 "strip_text_ysize": "14pt",
-"ysize": "14pt",
+"ysize": "11.2pt",
 "yangle":        0,
 "yanchor": "end",
 "xlabs": [
@@ -658,7 +686,7 @@
 "4" 
 ],
 "title": "Error Analysis",
-"title_size": "16pt",
+"title_size": "16.8pt",
 "options": {
  "width":      400,
 "height":      400 
